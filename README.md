@@ -2,15 +2,15 @@
 
 This project predicts student academic outcomes — Enrolled, Dropout, or Graduate — using Machine Learning and Deep Learning models on real student performance and demographic data. The objective is to identify at-risk students early and support data-driven academic intervention.
 
-##The workflow includes:
+## The workflow includes:
 
-####Data preprocessing (encoding, outlier handling, SMOTE balancing)
+#### Data preprocessing (encoding, outlier handling, SMOTE balancing)
 
-####Feature scaling and model training (MLP / neural network)
+#### Feature scaling and model training (MLP / neural network)
 
-####Performance comparison against classical ML models
+#### Performance comparison against classical ML models
 
-####Evaluation using accuracy, F1-score, and confusion matrix
+#### Evaluation using accuracy, F1-score, and confusion matrix
 
 The model delivers insights into factors influencing student retention and graduation, enabling institutions to proactively reduce dropout rates and improve student success.    
 

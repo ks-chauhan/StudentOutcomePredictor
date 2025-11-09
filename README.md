@@ -13,6 +13,7 @@ This project predicts student academic outcomes — Enrolled, Dropout, or Gradua
 #### Evaluation using accuracy, F1-score, and confusion matrix
 
 The model delivers insights into factors influencing student retention and graduation, enabling institutions to proactively reduce dropout rates and improve student success.    
+---
 
 The given jupyter file was trained on google colab and to execute it on your system configure the address of the dataset file accordingly. and execute the jupyter file.
 
@@ -26,3 +27,7 @@ sklearn
 xgboost
 torch
 tqdm
+---
+
+to clone the repo use the command :  
+git clone origin https://github.com/ks-chauhan/StudentOutcomePredictor.git

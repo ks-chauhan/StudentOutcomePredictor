@@ -105,7 +105,7 @@ if st.button("Submit"):
     Tuition_Fees_Flag = 1 if (Tuition_UpToDate_int == 0 or Outstanding_Debts_int == 1) else 0
 
     # Load scaler
-    scaler = joblib.load(r"C:/Kshitij Project/StudentOutcomePredictor/Preprocess/scaler.pkl")
+    scaler = joblib.load(r"Preprocess/scaler.pkl")
 
     # Ordered data
     data_ordered = {
@@ -171,7 +171,7 @@ if st.button("Submit"):
     input_df[num_cols] = scaler.transform(input_df[num_cols])
 
     # Load model
-    model = joblib.load("C:/Kshitij Project/StudentOutcomePredictor/ML_Models/RandomForest.pkl")
+    model = joblib.load("ML_Models/RandomForest.pkl")
 
     # Predict
     prediction = model.predict(input_df)
